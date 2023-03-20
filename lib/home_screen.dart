@@ -93,11 +93,12 @@ class _HomeScrenState extends State<HomeScren> {
                 ),
                 const SizedBox(height: 30,),
                 Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: EdgeInsets.all(8),
                   child: Row(
                     children: [
                       Icon(Icons.pin_drop,size: 35,color: Colors.red,),
-                      Text(cityName,overflow: TextOverflow.ellipsis,style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold,color: Colors.white.withOpacity(0.7)),)
+                      SizedBox(width: 10,),
+                      Expanded(child: Text(cityName,overflow: TextOverflow.clip,style: TextStyle(fontSize: 28,fontWeight: FontWeight.bold,color: Colors.white.withOpacity(0.7)),maxLines: 2,))
                     ],
                   ),
                 ),
