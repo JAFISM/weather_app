@@ -1,3 +1,4 @@
+![Screenshot 2023-03-20 161942](https://user-images.githubusercontent.com/118643226/226319735-66307102-72ae-4c69-b042-c136e769f1c8.jpg)
 # weather_app
 
 A new Flutter project.
